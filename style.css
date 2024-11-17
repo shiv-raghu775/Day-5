@@ -1,0 +1,100 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+ }
+
+ html,body{
+    height: 100%;
+    width: 100%;
+ }
+
+.profile-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.profile-title {
+  font-size: 18px;
+  color: #666;
+}
+
+.profile-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-info li {
+  margin-bottom: 10px;
+}
+
+.profile-info strong {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.profile-bio {
+  margin-bottom: 20px;
+}
+
+.profile-stats ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-stats li {
+  margin-right: 20px;
+}
+
+.profile-actions {
+  margin-top: 20px;
+}
+
+.connect-btn,
+.message-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.connect-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.message-btn {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+
